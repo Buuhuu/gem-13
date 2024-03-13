@@ -27,3 +27,17 @@
 	display: flex;
 	flex-direction: column-reverse;
 }
+
+/* options */
+
+.block.teaser.light .fg {
+	background-color: white;
+	color: black;
+	opacity: .6;
+}
+
+.teaser-wrapper:has(.fullwidth) {
+	max-width: unset;
+	margin: 0 -32px;
+	width: calc(100% + 64px);
+}

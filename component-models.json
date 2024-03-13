@@ -190,6 +190,17 @@
     "id": "teaser",
     "fields": [
       {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Options",
+        "valueType": "string",
+        "options": [
+          {"name": "fullwidth","value": "fullwidth"},
+          {"name": "light background","value": "light"}
+        ]
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "background_image",
